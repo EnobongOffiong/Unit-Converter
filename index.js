@@ -16,6 +16,12 @@ convertBtn.addEventListener("click", function(){
     if(regex.test(conversionInput.value) != true) {
         alert.textContent = "Please enter numbers only"
     }
+    if(conversionInput.value == 1){
+
+    lengthEl.textContent= `${input} meter = ${(input * 3.281).toFixed(2)} feet | ${input} feet = ${(input / 3.281).toFixed(2)} meters`
+    volumeEl.textContent = `${input} liter = ${(input / 3.785).toFixed(2)} gallons | ${input} gallons = ${(input * 3.785).toFixed(2)} liters`
+    massEl.textContent = `${input} kilo = ${(input * 2.205).toFixed(2)} pounds | ${input} pounds = ${(input /2.205).toFixed(2)} kilos`
+    }
    
     else if(conversionInput.value){
     alert.textContent = ""
@@ -25,4 +31,7 @@ convertBtn.addEventListener("click", function(){
     }
 })
 
+if(conversionInput.value == 1){
+    volumeEl.textContent
+}
  
