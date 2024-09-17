@@ -1,0 +1,104 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h3, p {
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #5A537B;
+    margin-bottom: 16px;
+    
+}
+
+p {
+    color: #353535;
+    font-size: 1.4rem;
+}
+
+input {
+    display: block;
+    width: 120px;
+    height: 80px;
+    margin: 16px auto;
+    font-size: 5.8rem;
+    text-align: center;
+    background: none;
+    color: #fff;
+    border: 2px solid #B295FF;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 550px;
+    /* Added code */
+    min-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.hero {
+    background-color: #6943FF;
+    padding: 32px; 
+}
+
+.container-units {
+    padding: 24px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.unit {
+    width: 100%;
+    margin: 24px 0;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 8px;
+}
+/* Added code */
+.hero {
+    position: relative;
+}
+
+/* Added code */
+#alert {
+    /* border: 1px solid red; */
+    color: white;
+    width: 90%;
+    margin-top: 5px;
+    position: absolute;
+}
